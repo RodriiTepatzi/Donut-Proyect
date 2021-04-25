@@ -12,12 +12,12 @@
         <StackLayout>
             <Label Text="Tipo de dona"/>
             <FlexLayout Wrap="Wrap" AlignItems="Start" AlignContent="Start" JustifyContent="SpaceAround">
-                <RadioButton x:Name="rb_d_trigo" Text="Trigo" GroupName="Donas"/>
+                <!--<RadioButton x:Name="rb_d_trigo" Text="Trigo" GroupName="Donas"/>
                 <RadioButton x:Name="rb_d_centeno" Text="Centeno" GroupName="Donas"/>
                 <RadioButton x:Name="rb_d_maiz" Text="Maiz" GroupName="Donas"/>
                 <RadioButton x:Name="rb_d_germinado" Text="Germinado" GroupName="Donas"/>
                 <RadioButton x:Name="rb_d_espelta" Text="Espelta" GroupName="Donas"/>
-                <Label Text="Tipo de relleno"/>
+                <Label Text="Tipo de relleno"/>-->
             </FlexLayout>
             <!--<FlexLayout Wrap="Wrap" AlignItems="Start" AlignContent="Start" JustifyContent="SpaceAround">
                 <RadioButton x:Name="rb_r_fresa" Text="Fresa" GroupName="Rellenos"/>

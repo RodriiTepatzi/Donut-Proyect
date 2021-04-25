@@ -9,7 +9,7 @@
              Shell.TabBarIsVisible="False">
     
     <Grid>
-        <!--<Grid.RowDefinitions>
+       <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
         <StackLayout>
@@ -37,6 +37,7 @@
                 <RadioButton x:Name="rb_c_nuez" Text="Nuez" GroupName="Cubiertas" CheckedChanged="onCubiertaChanged"/>
                 <RadioButton x:Name="rb_c_chocolate" Text="Chocolate" GroupName="Cubiertas" CheckedChanged="onCubiertaChanged"/>
             </FlexLayout>
+            
             <FlexLayout>
                 <Button x:Name="Dona_Anterior" Text="Anterior" Clicked="AnteriorOnClick" IsEnabled="False"></Button>
                 <Button x:Name="Dona_Add" Text="Añadir" Clicked="AñadirOnClick"></Button>
@@ -47,7 +48,7 @@
             <Label x:Name="Total_Final_Label" Text="Total = $ 0"/>
             <Label x:Name="Shower"/>
             <Button x:Name="Limpiar" Text="Limpiar" Clicked="Limpiarr" IsEnabled="True"></Button>
-        </StackLayout>-->
+        </StackLayout>
         
     </Grid>
 </ContentPage>

@@ -7,11 +7,8 @@
              xmlns:model="clr-namespace:Donut_Proyect.Models"
              Shell.NavBarIsVisible="True"
              Shell.TabBarIsVisible="False">
-    
+
     <Grid>
-       <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-        </Grid.RowDefinitions>
         <StackLayout>
             <Label Text="Tipo de dona"/>
             <FlexLayout Wrap="Wrap" AlignItems="Start" AlignContent="Start" JustifyContent="SpaceAround">
@@ -22,7 +19,7 @@
                 <RadioButton x:Name="rb_d_espelta" Text="Espelta" GroupName="Donas"/>
                 <Label Text="Tipo de relleno"/>
             </FlexLayout>
-            <FlexLayout Wrap="Wrap" AlignItems="Start" AlignContent="Start" JustifyContent="SpaceAround">
+            <!--<FlexLayout Wrap="Wrap" AlignItems="Start" AlignContent="Start" JustifyContent="SpaceAround">
                 <RadioButton x:Name="rb_r_fresa" Text="Fresa" GroupName="Rellenos"/>
                 <RadioButton x:Name="rb_r_chocolate" Text="Chocolate" GroupName="Rellenos"/>
                 <RadioButton x:Name="rb_r_vainilla" Text="Vainilla" GroupName="Rellenos"/>
@@ -47,7 +44,7 @@
             <Label x:Name="Descuento_Label" Text="Descuento = $ 0"/>
             <Label x:Name="Total_Final_Label" Text="Total = $ 0"/>
             <Label x:Name="Shower"/>
-            <Button x:Name="Limpiar" Text="Limpiar" IsEnabled="True"></Button>
+            <Button x:Name="Limpiar" Text="Limpiar" IsEnabled="True"></Button>-->
         </StackLayout>
         
     </Grid>

@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Donut_Proyect.Views.MainPage"
+             xmlns:vm="clr-namespace:Donut_Proyect.ViewModels"
+             Title="{Binding Title}"
+             Shell.NavBarIsVisible="True"
+             Shell.TabBarIsVisible="False"
+             Shell.BackgroundColor="#A5E7FE"
+             BackgroundImageSource="background.jpg">
+    
+    <ContentPage.BindingContext>
+        <vm:MainViewModel />
+    </ContentPage.BindingContext>
+    
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Color x:Key="Accent">#96d1ff</Color>
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <StackLayout BackgroundColor="Transparent" VerticalOptions="FillAndExpand" HorizontalOptions="Fill">
+            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" VerticalOptions="Center">
+                <ContentView Padding="0,40,0,10" VerticalOptions="FillAndExpand">
+                    <Image Source="logo_donas.png" VerticalOptions="Center" HeightRequest="96" Opacity="0.1" />
+                </ContentView>
+            </StackLayout>
+        </StackLayout>
+        <ScrollView Grid.Row="1">
+            <StackLayout Orientation="Vertical" Padding="30,24,30,24" Spacing="10">
+                <Label Text="Esta aplicación está diseñada para que puedas ordenar tus donas de una forma más rápida y fácil, evitando así las largas filas en nuestra sucursal y poder así agilizar tu compra. &#x0a;Al ordenar tu dona, tienes diferentes opciones y estilos de ésta (Trigo, Centeno, Maíz, Germinado, Espelta), así como también rellenos: fresa, chocolate, vainilla, queso o merengue y diferentes cubiertas como : cereales, chispas, glaseado, nuez, chocolate, etc. &#x0a;Cuando termines de crear tu dona, la app te dará el total de tu compra, aplicando descuentos dependiendo de éste, si tu total a pagar es mayor a los $120 se te hará un descuento del 30% y si es mayor a $270 tu descuento será del 40%
+¿Estás listo para ordenar?" FontSize="16" Padding="0,0,0,0" HorizontalTextAlignment="Start">
+                </Label>
+                <Label Text="" FontSize="16" Padding="0,0,0,0"/>
+            </StackLayout>
+        </ScrollView>
+    </Grid>
+</ContentPage>

@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             Title="Integrantes"
+             x:Class="Donut_Proyect.Views.PresentacionPage"
+             Shell.NavBarIsVisible="True"
+             Shell.TabBarIsVisible="False">
+    <ContentPage.Content>
+        <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
+            <Label Text="Realizado por: " HorizontalOptions="Center" Padding="0,0,0,20"></Label>
+            <Label Text="Ana Claudia Pérez Junco" HorizontalOptions="Center"></Label>
+            <Label Text="Alan Joshua Guzmán García" HorizontalOptions="Center"></Label>
+            <Label Text="Citlali Rodríguez Ávila" HorizontalOptions="Center"></Label>
+            <Label Text="Carlos Sánchez Castillo" HorizontalOptions="Center"></Label>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

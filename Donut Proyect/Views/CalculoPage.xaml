@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Donut_Proyect.Views.CalculoPage"
+             Title="Calculo"
+             xmlns:local="clr-namespace:Donut_Proyect.ViewModels"  
+             xmlns:model="clr-namespace:Donut_Proyect.Models"
+             Shell.NavBarIsVisible="True"
+             Shell.TabBarIsVisible="False">
+
+    <ContentPage.ToolbarItems>
+    </ContentPage.ToolbarItems>
+    <!--
+      x:DataType enables compiled bindings for better performance and compile time validation of binding expressions.
+      https://docs.microsoft.com/xamarin/xamarin-forms/app-fundamentals/data-binding/compiled-bindings
+    -->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto" />
+        </Grid.RowDefinitions>
+        <StackLayout>
+            <Label Text="Tipo de dona"/>
+            <FlexLayout Wrap="Wrap" AlignItems="Start" AlignContent="Start" JustifyContent="SpaceAround">
+                <RadioButton x:Name="rb_d_trigo" Text="Trigo" GroupName="Donas" CheckedChanged="onTiposChanged"/>
+                <RadioButton x:Name="rb_d_centeno" Text="Centeno" GroupName="Donas" CheckedChanged="onTiposChanged"/>
+                <RadioButton x:Name="rb_d_maiz" Text="Maiz" GroupName="Donas" CheckedChanged="onTiposChanged"/>
+                <RadioButton x:Name="rb_d_germinado" Text="Germinado" GroupName="Donas" CheckedChanged="onTiposChanged"/>
+                <RadioButton x:Name="rb_d_espelta" Text="Espelta" GroupName="Donas" CheckedChanged="onTiposChanged"/>
+            </FlexLayout>
+            <Label Text="Tipo de relleno"/>
+            <FlexLayout Wrap="Wrap" AlignItems="Start" AlignContent="Start" JustifyContent="SpaceAround">
+                <RadioButton x:Name="rb_r_fresa" Text="Fresa" GroupName="Rellenos" CheckedChanged="onRellenoChanged"/>
+                <RadioButton x:Name="rb_r_chocolate" Text="Chocolate" GroupName="Rellenos" CheckedChanged="onRellenoChanged"/>
+                <RadioButton x:Name="rb_r_vainilla" Text="Vainilla" GroupName="Rellenos" CheckedChanged="onRellenoChanged"/>
+                <RadioButton x:Name="rb_r_queso" Text="Queso" GroupName="Rellenos" CheckedChanged="onRellenoChanged"/>
+                <RadioButton x:Name="rb_r_merenge" Text="Merenge" GroupName="Rellenos" CheckedChanged="onRellenoChanged"/>
+            </FlexLayout>
+            <Label Text="Tipo de cubierta"/>
+            <FlexLayout Wrap="Wrap" AlignItems="Start" AlignContent="Start" JustifyContent="SpaceAround">
+                <RadioButton x:Name="rb_c_cereales" Text="Cereales" GroupName="Cubiertas" CheckedChanged="onCubiertaChanged"/>
+                <RadioButton x:Name="rb_c_chispas" Text="Chispas" GroupName="Cubiertas" CheckedChanged="onCubiertaChanged"/>
+                <RadioButton x:Name="rb_c_glaseado" Text="Glaseado" GroupName="Cubiertas" CheckedChanged="onCubiertaChanged"/>
+                <RadioButton x:Name="rb_c_nuez" Text="Nuez" GroupName="Cubiertas" CheckedChanged="onCubiertaChanged"/>
+                <RadioButton x:Name="rb_c_chocolate" Text="Chocolate" GroupName="Cubiertas" CheckedChanged="onCubiertaChanged"/>
+            </FlexLayout>
+            <FlexLayout>
+                <Button x:Name="Dona_Anterior" Text="Anterior" Clicked="AnteriorOnClick" IsEnabled="False"></Button>
+                <Button x:Name="Dona_Add" Text="Añadir" Clicked="AñadirOnClick"></Button>
+                <Button x:Name="Dona_Siguiente" Text="Siguiente" Clicked="SiguienteOnClick" IsEnabled="False"></Button>
+            </FlexLayout>
+            <Label x:Name="Total_Label" Text="Dona = $ 0"/>
+            <Label x:Name="Descuento_Label" Text="Descuento = $ 0"/>
+            <Label x:Name="Total_Final_Label" Text="Total = $ 0"/>
+            <Label x:Name="Shower"/>
+            <Button x:Name="Limpiar" Text="Limpiar" Clicked="Limpiarr" IsEnabled="True"></Button>
+        </StackLayout>
+        
+    </Grid>
+</ContentPage>

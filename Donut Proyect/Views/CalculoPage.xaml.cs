@@ -16,7 +16,7 @@ namespace Donut_Proyect.Views
 {
     public partial class CalculoPage : ContentPage
     {
-        private List<RadioButton> TiposDona = new List<RadioButton>();
+        /*private List<RadioButton> TiposDona = new List<RadioButton>();
         private List<RadioButton> TiposRelleno = new List<RadioButton>();
         private List<RadioButton> TiposCubierta = new List<RadioButton>();
         private List<Dona> Donas = new List<Dona>();
@@ -26,7 +26,7 @@ namespace Donut_Proyect.Views
         private int DonaCaracCounter = 0;
         
         Dona dona = new Dona();
-        
+        */
         public CalculoPage()
         {
             InitializeComponent();
@@ -104,7 +104,7 @@ namespace Donut_Proyect.Views
             Mostrar();
             
         }
-        */
+        
         private double CalcularPrecio()
         {
             double precio = 0;
@@ -322,6 +322,6 @@ namespace Donut_Proyect.Views
             {
                 descuento = precio * 0.40;
             }
-        }
+        }*/
     }
 }

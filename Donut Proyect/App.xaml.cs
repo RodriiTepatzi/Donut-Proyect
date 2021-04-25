@@ -12,8 +12,10 @@ namespace Donut_Proyect
         public App()
         {
             InitializeComponent();
-
-            DependencyService.Register<MockDataStore>();
+            Device.SetFlags(new[]
+            {
+                "RadioButton_Experimental"
+            });
             MainPage = new AppShell();
         }
 

@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "MVEQ/ghQyuHhvT1dO3EJf0GSrL3MGGfOZsZEBp7nk4exmIEbDxjezNrNagtkmAWO5JAYcNIiVTRowX8aRrm1Wg==",
+  "dgSpecHash": "N+95aakV3VmMBXV2UBQ9y30Cn7sfC8I2UCqzI3SmYuthBjLeh3+N0HMek3QM8U6sHoVH8FwH+Ea4pqBd9zy7qA==",
   "success": true,
   "projectFilePath": "C:\\Users\\sprno\\source\\repos\\Donut Proyect\\Donut Proyect.iOS\\Donut Proyect.iOS.csproj",
   "expectedPackageFiles": [
     "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
-    "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512"
+    "D:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.6.0.1141\\xamarin.forms.4.6.0.1141.nupkg.sha512",
+    "C:\\Users\\sprno\\.nuget\\packages\\xamarin.forms.carouselview\\2.3.0-pre2\\xamarin.forms.carouselview.2.3.0-pre2.nupkg.sha512"
   ],
   "logs": []
 }

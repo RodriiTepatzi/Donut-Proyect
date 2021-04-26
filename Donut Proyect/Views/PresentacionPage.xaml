@@ -6,15 +6,27 @@
              mc:Ignorable="d"
              Title="Integrantes"
              x:Class="Donut_Proyect.Views.PresentacionPage"
+             Shell.BackgroundColor="{StaticResource StatusBarColor}"
              Shell.NavBarIsVisible="True"
-             Shell.TabBarIsVisible="False">
+             Shell.TabBarIsVisible="False"
+            BackgroundColor="{StaticResource BackgroundSolidColor}">
+    
     <ContentPage.Content>
+        <ScrollView>
         <StackLayout Padding="10,0,10,0" VerticalOptions="Center">
-            <Label Text="Realizado por: " HorizontalOptions="Center" Padding="0,0,0,20"></Label>
+            <Label Text="Desarrollado por: " HorizontalOptions="Center" Padding="0,20,0,0" FontSize="20"></Label>
             <Label Text="Ana Claudia Pérez Junco" HorizontalOptions="Center"></Label>
             <Label Text="Alan Joshua Guzmán García" HorizontalOptions="Center"></Label>
             <Label Text="Citlali Rodríguez Ávila" HorizontalOptions="Center"></Label>
             <Label Text="Carlos Sánchez Castillo" HorizontalOptions="Center"></Label>
+            <Label Text="Docente: " HorizontalOptions="Center" Padding="0,20,0,0" FontSize="20"></Label>
+            <Label Text="Patricia Cedillo Xochipa" HorizontalOptions="Center" Padding="0,0,0,0"></Label>
+            <Label Text="Grupo: " HorizontalOptions="Center" Padding="0,20,0,0" FontSize="20"></Label>
+            <Label Text="6BMPG" HorizontalOptions="Center" Padding="0,0,0,0"></Label>
+            <Label Text="Materia: " HorizontalOptions="Center" Padding="0,20,0,0" FontSize="20"></Label>
+            <Label Text="Desarrollo de Aplicaciones IOS" HorizontalOptions="Center"></Label>
+            <Image HorizontalOptions="Center" Source="cachorros_blancos.png" WidthRequest="120"></Image>
         </StackLayout>
+        </ScrollView>
     </ContentPage.Content>
 </ContentPage>

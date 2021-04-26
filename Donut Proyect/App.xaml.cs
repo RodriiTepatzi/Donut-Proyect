@@ -1,7 +1,6 @@
 ﻿using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
-using Donut_Proyect.Services;
 using Donut_Proyect.Views;
 
 namespace Donut_Proyect

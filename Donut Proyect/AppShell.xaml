@@ -35,7 +35,7 @@
                 <Setter Property="TextColor" Value="White"></Setter>
             </Style>
             <Style Class="FlyoutItemLayoutStyle" TargetType="Layout" ApplyToDerivedTypes="True">
-                <Setter Property="BackgroundColor" Value="LightBlue"></Setter>
+                <Setter Property="BackgroundColor" Value="#7ACE67"></Setter>
                 <Setter Property="VisualStateManager.VisualStateGroups">
                     <VisualStateGroupList>
                         <VisualStateGroup x:Name="CommonStates">
@@ -47,7 +47,7 @@
                             </VisualState>
                             <VisualState x:Name="Selected">
                                 <VisualState.Setters>
-                                    <Setter Property="BackgroundColor" Value="#ADCFDB" />
+                                    <Setter Property="BackgroundColor" Value="#7ACE67" />
                                 </VisualState.Setters>
                             </VisualState>
                         </VisualStateGroup>
@@ -80,10 +80,11 @@
         https://docs.microsoft.com/dotnet/api/xamarin.forms.shellgroupitem.flyoutdisplayoptions?view=xamarin-forms
     -->
     <FlyoutItem FlyoutDisplayOptions="AsMultipleItems">
-        <ShellContent Title="Donut Proyect" Route="MainPage" ContentTemplate="{DataTemplate local:MainPage}" />
-        <ShellContent Title="Calculo" Route="CalculoPage" ContentTemplate="{DataTemplate local:CalculoPage}" />
-        <ShellContent Title="Integrantes" Route="PresentacionPage" ContentTemplate="{DataTemplate local:PresentacionPage}" />
-        <ShellContent Title="Contacto" Route="ContactoPage" ContentTemplate="{DataTemplate local:ContactoPage}" />
+        <ShellContent Title="Donut Proyect" Route="MainPage" FlyoutIcon="rosquilla_icon.png" ContentTemplate="{DataTemplate local:MainPage}" />
+        <ShellContent Title="Calculo" Route="CalculoPage" FlyoutIcon="rosquilla_icon.png" ContentTemplate="{DataTemplate local:CalculoPage}" />
+        <ShellContent Title="Integrantes" Route="PresentacionPage" FlyoutIcon="rosquilla_icon.png" ContentTemplate="{DataTemplate local:PresentacionPage}" />
+        <ShellContent Title="Contacto" Route="ContactoPage" FlyoutIcon="rosquilla_icon.png" ContentTemplate="{DataTemplate local:ContactoPage}" />
+        <ShellContent Title="Galeria" Route="GaleriaPage" FlyoutIcon="rosquilla_icon.png" ContentTemplate="{DataTemplate local:GaleriaPage}" />
     </FlyoutItem>
 
     <!--When the Flyout is visible this will be a menu item you can tie a click behavior to  -->

@@ -1,10 +1,5 @@
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\bin\Debug\Donut Proyect.Android.dll
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\bin\Debug\Donut Proyect.Android.pdb
-C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\bin\Debug\com.companyname.donut_proyect.apk
-C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\bin\Debug\com.companyname.donut_proyect.aab
-C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\bin\Debug\com.companyname.donut_proyect-Signed.aab
-C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\bin\Debug\com.companyname.donut_proyect-Signed.apk
-C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\bin\Debug\com.companyname.donut_proyect-Signed.apk.idsig
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\bin\Debug\Donut Proyect.dll
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\bin\Debug\Donut Proyect.pdb
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\MonoAndroid,Version=v9.0.AssemblyAttributes.cs
@@ -21,10 +16,7 @@ C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\Xam
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\Donut Proyect.Android.csproj.CopyComplete
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\Donut Proyect.Android.dll
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\Donut Proyect.Android.pdb
-C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\android\bin\com.companyname.donut_proyect.apk
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\android\bin\base.zip
-C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\android\bin\com.companyname.donut_proyect.aab
-C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\android\bin\com.companyname.donut_proyect.apks
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\layout\tabbar.xml
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\layout\toolbar.xml
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\values\styles.xml
@@ -41,9 +33,6 @@ C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\mipmap-xxhdpi\launcher_foreground.png
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\mipmap-xxxhdpi\icon.png
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\mipmap-xxxhdpi\launcher_foreground.png
-C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\drawable\xamarin_logo.png
-C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\drawable\tab_about.png
-C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\drawable\tab_feed.png
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\uploadflags.txt
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\resolvedassemblies.hash
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\android\assets\Donut Proyect.Android.dll
@@ -469,3 +458,33 @@ C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\sta
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\drawable\background.jpg
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\drawable\shell_bg.jpg
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\drawable\logo_donas.png
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\drawable\cachorros_blancos.png
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\android\assets\Xamarin.Forms.CarouselView.dll
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\android\src\crc646bcef71e511f392b\CarouselViewRenderer.java
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\android\src\crc646bcef71e511f392b\CarouselViewRenderer_OnScrollListener.java
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\android\src\crc646bcef71e511f392b\CarouselViewRenderer_PositionUpdater.java
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\android\src\crc646bcef71e511f392b\ItemViewAdapter.java
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\android\src\crc646bcef71e511f392b\ItemViewAdapter_CarouselViewHolder.java
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\android\src\crc646bcef71e511f392b\PhysicalLayoutManager.java
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\android\src\crc646bcef71e511f392b\PhysicalLayoutManager_SeekAndSnapScroller.java
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\drawable\rosquilla_icon.png
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\drawable\dona_1.jpg
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\drawable\dona_2.jpg
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\drawable\dona_3.jpg
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\drawable\dona_4.jpg
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\drawable\dona_5.jpg
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\drawable\dona_6.jpg
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\drawable\dona_7.jpg
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\drawable\dona_8.jpg
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\drawable\dona_9.jpg
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\drawable\donut_logo.png
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\res\drawable\dona_10.jpg
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\bin\Debug\com.cbtis.donut_proyect.apk
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\bin\Debug\com.cbtis.donut_proyect.aab
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\bin\Debug\com.cbtis.donut_proyect-Signed.aab
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\bin\Debug\com.cbtis.donut_proyect-Signed.apk
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\bin\Debug\com.cbtis.donut_proyect-Signed.apk.idsig
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\android\bin\com.cbtis.donut_proyect.apk
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\android\bin\com.cbtis.donut_proyect.aab
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\android\bin\com.cbtis.donut_proyect.apks
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.Android\obj\Debug\90\android\src\com\cbtis\donut_proyect\R.java

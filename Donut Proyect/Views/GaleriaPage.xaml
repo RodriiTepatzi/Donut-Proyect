@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:Control="clr-namespace:Xamarin.Forms;assembly=Xamarin.Forms.CarouselView"
+             x:Class="Donut_Proyect.Views.GaleriaPage"
+             
+             Title="Galeria"
+             Shell.PresentationMode="ModalAnimated"
+             Shell.BackgroundColor="{StaticResource StatusBarColor}"
+             Shell.NavBarIsVisible="True"
+             Shell.TabBarIsVisible="False"
+             BackgroundColor="{StaticResource BackgroundSolidColor}">
+    <ContentPage.Content>
+        <StackLayout>
+            <Control:CarouselView ItemsSource="{Binding CarruselDataSource}" HorizontalOptions="FillAndExpand">
+                <Control:CarouselView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Padding="0,15,0,0">
+                            <Image Source="{Binding source_img}" HorizontalOptions="FillAndExpand"></Image>
+                        </StackLayout>
+                    </DataTemplate>
+                </Control:CarouselView.ItemTemplate>
+            </Control:CarouselView>
+        </StackLayout>
+    </ContentPage.Content>
+    
+</ContentPage>

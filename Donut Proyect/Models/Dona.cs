@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using Xamarin.Forms;
 
-namespace Donut.Models
+namespace Donut_Proyect.Models
 {
     class Dona
     {

@@ -5,11 +5,8 @@ C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect\bin\Debug\netstandard2.0
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect\obj\Debug\netstandard2.0\Donut Proyect.csprojAssemblyReference.cache
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect\obj\Debug\netstandard2.0\AppShell.xaml.g.cs
-C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect\obj\Debug\netstandard2.0\Views\NewItemPage.xaml.g.cs
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect\obj\Debug\netstandard2.0\Donut Proyect.AssemblyInfoInputs.cache
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect\obj\Debug\netstandard2.0\Donut Proyect.AssemblyInfo.cs
-C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect\obj\Debug\netstandard2.0\Donut Proyect.csproj.CoreCompileInputs.cache
-C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect\obj\Debug\netstandard2.0\XamlC.stamp
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect\obj\Debug\netstandard2.0\Donut Proyect.dll
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect\obj\Debug\netstandard2.0\ref\Donut Proyect.dll
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect\obj\Debug\netstandard2.0\Donut Proyect.pdb
@@ -17,3 +14,6 @@ C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect\obj\Debug\netstandard2.0
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect\obj\Debug\netstandard2.0\Views\CalculoPage.xaml.g.cs
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect\obj\Debug\netstandard2.0\Views\PresentacionPage.xaml.g.cs
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect\obj\Debug\netstandard2.0\Views\ContactoPage.xaml.g.cs
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect\obj\Debug\netstandard2.0\Views\GaleriaPage.xaml.g.cs
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect\obj\Debug\netstandard2.0\Donut Proyect.csproj.CoreCompileInputs.cache
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect\obj\Debug\netstandard2.0\XamlC.stamp

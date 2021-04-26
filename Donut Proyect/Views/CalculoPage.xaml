@@ -5,32 +5,35 @@
              Title="Calculo"
              xmlns:local="clr-namespace:Donut_Proyect.ViewModels"  
              xmlns:model="clr-namespace:Donut_Proyect.Models"
+             Shell.BackgroundColor="{StaticResource StatusBarColor}"
              Shell.NavBarIsVisible="True"
-             Shell.TabBarIsVisible="False">
+             Shell.TabBarIsVisible="False"
+             BackgroundColor="{StaticResource BackgroundSolidColor}"
+             >
 
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
         </Grid.RowDefinitions>
-        <StackLayout>
-            <Label Text="Tipo de dona"/>
-            <FlexLayout Wrap="Wrap" AlignItems="Start" AlignContent="Start" JustifyContent="SpaceAround">
+        <StackLayout Padding="15">
+            <Label Text="Tipo de dona" FontSize="18"/>
+            <FlexLayout Wrap="Wrap" AlignItems="Start" AlignContent="Start" JustifyContent="Start">
                 <RadioButton x:Name="rb_d_trigo" Text="Trigo" GroupName="Donas" CheckedChanged="onTiposChanged"/>
-                <RadioButton x:Name="rb_d_centeno" Text="Centeno" GroupName="Donas" CheckedChanged="onTiposChanged"/>
+                <RadioButton x:Name="rb_d_centeno" Text="Centeno" GroupName="Donas" CheckedChanged="onTiposChanged" />
                 <RadioButton x:Name="rb_d_maiz" Text="Maiz" GroupName="Donas" CheckedChanged="onTiposChanged"/>
                 <RadioButton x:Name="rb_d_germinado" Text="Germinado" GroupName="Donas" CheckedChanged="onTiposChanged"/>
                 <RadioButton x:Name="rb_d_espelta" Text="Espelta" GroupName="Donas" CheckedChanged="onTiposChanged"/>
             </FlexLayout>
-            <Label Text="Tipo de relleno"/>
-                <FlexLayout Wrap="Wrap" AlignItems="Start" AlignContent="Start" JustifyContent="SpaceAround">
+            <Label Text="Tipo de relleno" FontSize="18"/>
+            <FlexLayout Wrap="Wrap" AlignItems="Start" AlignContent="Start" JustifyContent="Start">
                     <RadioButton x:Name="rb_r_fresa" Text="Fresa" GroupName="Rellenos" CheckedChanged="onRellenoChanged"/>
                     <RadioButton x:Name="rb_r_chocolate" Text="Chocolate" GroupName="Rellenos" CheckedChanged="onRellenoChanged"/>
                     <RadioButton x:Name="rb_r_vainilla" Text="Vainilla" GroupName="Rellenos" CheckedChanged="onRellenoChanged"/>
                     <RadioButton x:Name="rb_r_queso" Text="Queso" GroupName="Rellenos" CheckedChanged="onRellenoChanged"/>
                     <RadioButton x:Name="rb_r_merenge" Text="Merenge" GroupName="Rellenos" CheckedChanged="onRellenoChanged"/>
                 </FlexLayout>
-                <Label Text="Tipo de cubierta"/>
-                <FlexLayout Wrap="Wrap" AlignItems="Start" AlignContent="Start" JustifyContent="SpaceAround">
+            <Label Text="Tipo de cubierta" FontSize="18"/>
+                <FlexLayout Wrap="Wrap" AlignItems="Start" AlignContent="Start" JustifyContent="Start">
                     <RadioButton x:Name="rb_c_cereales" Text="Cereales" GroupName="Cubiertas" CheckedChanged="onCubiertaChanged"/>
                     <RadioButton x:Name="rb_c_chispas" Text="Chispas" GroupName="Cubiertas" CheckedChanged="onCubiertaChanged"/>
                     <RadioButton x:Name="rb_c_glaseado" Text="Glaseado" GroupName="Cubiertas" CheckedChanged="onCubiertaChanged"/>
@@ -38,11 +41,11 @@
                     <RadioButton x:Name="rb_c_chocolate" Text="Chocolate" GroupName="Cubiertas" CheckedChanged="onCubiertaChanged"/>
                 </FlexLayout>
 
-                <FlexLayout>
-                    <Button x:Name="Dona_Anterior" Text="Anterior" Clicked="AnteriorOnClick" IsEnabled="False"></Button>
-                    <Button x:Name="Dona_Add" Text="Añadir" Clicked="AñadirOnClick"></Button>
-                    <Button x:Name="Dona_Siguiente" Text="Siguiente" Clicked="SiguienteOnClick" IsEnabled="False"></Button>
-                </FlexLayout>
+                <StackLayout Orientation="Horizontal">
+                    <Button x:Name="Dona_Anterior" Text="Anterior" Clicked="AnteriorOnClick" IsEnabled="False" Padding="0" HorizontalOptions="FillAndExpand"></Button>
+                <Button x:Name="Dona_Add" Text="Añadir" Clicked="AñadirOnClick" Padding="0" HorizontalOptions="FillAndExpand"></Button>
+                <Button x:Name="Dona_Siguiente" Text="Siguiente" Clicked="SiguienteOnClick" IsEnabled="False" Padding="0" HorizontalOptions="FillAndExpand"></Button>
+                </StackLayout>
                 <Label x:Name="Total_Label" Text="Dona = $ 0"/>
                 <Label x:Name="Descuento_Label" Text="Descuento = $ 0"/>
                 <Label x:Name="Total_Final_Label" Text="Total = $ 0"/>

@@ -7,10 +7,8 @@ using System.Threading.Tasks;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-using Donut_Proyect.Models;
 using Donut_Proyect.Views;
-using Donut_Proyect.ViewModels;
-using Donut.Models;
+using Donut_Proyect.Models;
 
 namespace Donut_Proyect.Views
 {
@@ -180,6 +178,9 @@ namespace Donut_Proyect.Views
             Total_Label.Text = "Dona = $ " + CalcularPrecio();
             dona.TipoDona = sender as RadioButton;
             CalularPrecioFinal();
+
+               
+
         }
 
         private void onCubiertaChanged(object sender, CheckedChangedEventArgs e)

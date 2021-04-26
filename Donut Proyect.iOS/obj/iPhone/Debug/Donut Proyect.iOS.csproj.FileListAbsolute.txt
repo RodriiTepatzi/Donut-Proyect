@@ -57,3 +57,4 @@ C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.iOS\obj\iPhone\Debug\Xam
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.iOS\obj\iPhone\Debug\Donut Proyect.iOS.csproj.CopyComplete
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.iOS\obj\iPhone\Debug\Donut Proyect.iOS.exe
 C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.iOS\obj\iPhone\Debug\Donut Proyect.iOS.pdb
+C:\Users\sprno\source\repos\Donut Proyect\Donut Proyect.iOS\bin\iPhone\Debug\Xamarin.Forms.CarouselView.dll

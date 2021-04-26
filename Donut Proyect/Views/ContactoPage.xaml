@@ -2,11 +2,20 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Donut_Proyect.Views.ContactoPage"
-             Title="Contacto">
+             Title="Contacto"
+             Shell.BackgroundColor="{StaticResource StatusBarColor}"
+             Shell.NavBarIsVisible="True"
+             Shell.TabBarIsVisible="False"
+             BackgroundColor="{StaticResource BackgroundSolidColor}">
 
     <StackLayout Spacing="20" Padding="15">
         <Label Text="Número de telefono: 246-142-92-07"/>
-        <Label Text="Dirección: Blvd. Leonarda Gomez Blanco #10-C Acxotla del Rio. Tlaxcalam"/>
+        <Label Text="Dirección: Blvd. Leonarda Gomez Blanco #10-C Acxotla del Rio. Tlaxcala"/>
+        <StackLayout x:Name="webViewLayout"
+            HorizontalOptions="FillAndExpand"
+            VerticalOptions="FillAndExpand">
+            <!-- view codebehind for WebView for overview text -->
+        </StackLayout>
     </StackLayout>
     
 </ContentPage>

@@ -7,7 +7,8 @@
 
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="4.6.0.1141" />  
-    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.5.3.2" />  
+    <PackageReference Include="Xamarin.Forms.CarouselView" Version="2.3.0-pre2" />
   </ItemGroup>
 
   <ItemGroup>
@@ -17,11 +18,19 @@
     <Compile Update="Views\ContactoPage.xaml.cs">
       <DependentUpon>ContactoPage.xaml</DependentUpon>
     </Compile>
+    <Compile Update="Views\GaleriaPage.xaml.cs">
+      <DependentUpon>GaleriaPage.xaml</DependentUpon>
+    </Compile>
     <Compile Update="Views\PresentacionPage.xaml.cs">
       <DependentUpon>PresentacionPage.xaml</DependentUpon>
     </Compile>
     <Compile Update="Views\MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="ViewModels\" />
   </ItemGroup>
 </Project>
